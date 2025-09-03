@@ -79,8 +79,16 @@ const About = () => {
 
             {/* Image/Visual Element */}
             <div className="relative">
-              <div className="aspect-square bg-gradient-primary rounded-2xl p-8 flex items-center justify-center shadow-elegant">
-                <div className="text-center text-white">
+              <div 
+                className="aspect-square bg-gradient-primary rounded-2xl p-8 flex items-center justify-center shadow-elegant relative overflow-hidden"
+                style={{
+                  backgroundImage: `url('/lovable-uploads/f936b315-e34e-463f-945a-84ace89e08a9.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }}
+              >
+                <div className="absolute inset-0 bg-primary/70 rounded-2xl"></div>
+                <div className="text-center text-white relative z-10">
                   <div className="w-48 h-48 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 p-8">
                     <img 
                       src="/lovable-uploads/623485a2-ea31-4745-b12b-4ffe9e1d77d1.png" 
