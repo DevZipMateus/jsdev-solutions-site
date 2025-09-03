@@ -1,14 +1,8 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+
+# Sitemaps
+Sitemap: https://lovable.dev/projects/f1c69eb3-0c04-462b-b16c-016885c16077/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
