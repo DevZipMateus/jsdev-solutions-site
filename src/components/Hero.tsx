@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center text-white">
+        <div className="max-w-4xl mx-auto text-center text-white bg-black/40 backdrop-blur-sm rounded-2xl p-8 md:p-12">
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">
             Tecnologia que{' '}
