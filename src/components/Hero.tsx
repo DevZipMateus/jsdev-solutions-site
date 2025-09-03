@@ -1,21 +1,19 @@
 import { ArrowRight, Code, Zap, Shield } from 'lucide-react';
 import { Button } from './ui/button';
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url(/lovable-uploads/759a047e-eaab-472b-ac13-a46e67859485.png)' }}
-      ></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: 'url(/lovable-uploads/759a047e-eaab-472b-ac13-a46e67859485.png)'
+    }}></div>
       
       {/* Background Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-hero opacity-75"></div>
@@ -62,20 +60,11 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              onClick={() => scrollToSection('services')}
-              className="bg-secondary hover:bg-secondary-glow text-secondary-foreground shadow-secondary transition-bounce group px-8 py-4 text-lg"
-            >
+            <Button size="lg" onClick={() => scrollToSection('services')} className="bg-secondary hover:bg-secondary-glow text-secondary-foreground shadow-secondary transition-bounce group px-8 py-4 text-lg">
               Nossos Serviços
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-smooth" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => scrollToSection('contact')}
-              className="border-white/60 text-white hover:bg-white/10 hover:border-white transition-smooth px-8 py-4 text-lg"
-            >
+            <Button size="lg" variant="outline" onClick={() => scrollToSection('contact')} className="border-white/60 text-white hover:border-white transition-smooth px-8 py-4 text-lg bg-zinc-950 hover:bg-zinc-800">
               Falar Conosco
             </Button>
           </div>
@@ -108,8 +97,6 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
