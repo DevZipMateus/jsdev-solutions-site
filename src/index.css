@@ -25,10 +25,10 @@ All colors MUST be HSL.
     --primary-light: 196 65% 85%;
     --primary-glow: 196 65% 45%;
 
-    --secondary: 42 96% 56%; /* Laranja vibrante #F59E0B */
+    --secondary: 37 100% 50%; /* Laranja personalizada #ff9d00 */
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 42 96% 90%;
-    --secondary-glow: 42 96% 70%;
+    --secondary-light: 37 100% 85%;
+    --secondary-glow: 37 100% 65%;
 
     --tertiary: 0 0% 0%; /* Preto */
     --tertiary-foreground: 0 0% 100%;
@@ -36,7 +36,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 42 96% 56%;
+    --accent: 37 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
