@@ -18,9 +18,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">JS</span>
-              </div>
+              <img 
+                src="/lovable-uploads/623485a2-ea31-4745-b12b-4ffe9e1d77d1.png" 
+                alt="JS Desenvolvimento Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div className="flex flex-col">
                 <span className="font-bold text-white text-xl leading-tight">JS DESENVOLVIMENTO</span>
                 <span className="text-sm text-white/70 uppercase tracking-wide">Soluções em TI</span>

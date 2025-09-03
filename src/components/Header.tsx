@@ -42,9 +42,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">JS</span>
-            </div>
+            <img 
+              src="/lovable-uploads/623485a2-ea31-4745-b12b-4ffe9e1d77d1.png" 
+              alt="JS Desenvolvimento Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <div className="flex flex-col">
               <span className="font-bold text-primary text-lg leading-tight">JS DESENVOLVIMENTO</span>
               <span className="text-xs text-muted-foreground uppercase tracking-wide">Soluções em TI</span>
