@@ -240,7 +240,7 @@ Mensagem: ${formData.message}`;
                 <CardContent className="p-0">
                   <div className="aspect-video">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.8234567890123!2d-44.1234567!3d-19.9876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDU5JzE1LjYiUyA0NMKwMDcnMjQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr&q=Rua+Mirabela+82+Dom+Bosco+Betim+MG"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dOWTgHz-WZ9x34&q=Rua+Mirabela+82,+Dom+Bosco,+Betim,+MG,+32670-622,+Brazil"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
