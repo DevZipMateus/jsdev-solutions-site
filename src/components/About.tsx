@@ -81,7 +81,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-square bg-gradient-primary rounded-2xl p-8 flex items-center justify-center shadow-elegant">
                 <div className="text-center text-white">
-                  <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 p-4">
+                  <div className="w-48 h-48 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 p-8">
                     <img 
                       src="/lovable-uploads/623485a2-ea31-4745-b12b-4ffe9e1d77d1.png" 
                       alt="JS Desenvolvimento Logo" 
